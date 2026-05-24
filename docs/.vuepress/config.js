@@ -10,7 +10,6 @@ export default defineUserConfig({
   base: process.env.VERCEL ? '/' : '/PdfTeachAnnotator/',
 
   theme: defaultTheme({
-    logo: '/images/logo.png',
     navbar: [
       { text: '首页', link: '/' },
       { text: '快速开始', link: '/guide/getting-started' },
