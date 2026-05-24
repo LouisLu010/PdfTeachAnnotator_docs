@@ -6,8 +6,7 @@
 
 从 [GitHub Releases](https://github.com/LouisLu010/PdfTeachAnnotator/releases) 页面下载最新版本：
 
-- **Windows 安装包**: `PdfTeachAnnotator-Setup.exe`
-- **便携版**: `PdfTeachAnnotator-Portable.zip`
+- **便携版**: `PdfTeachAnnotator.exe`（无需安装，直接运行）
 
 ### 系统要求
 
@@ -17,9 +16,8 @@
 
 ### 安装步骤
 
-1. 双击下载的 `PdfTeachAnnotator-Setup.exe`
-2. 按照安装向导提示完成安装
-3. 安装完成后，从开始菜单或桌面快捷方式启动应用
+1. 双击下载的 `PdfTeachAnnotator.exe`
+2. 无需安装，立即使用
 
 ## 首次使用
 
