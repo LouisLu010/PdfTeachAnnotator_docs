@@ -1,0 +1,189 @@
+<template><div><h1 id="快捷键" tabindex="-1"><a class="header-anchor" href="#快捷键"><span>快捷键</span></a></h1>
+<h2 id="文件操作" tabindex="-1"><a class="header-anchor" href="#文件操作"><span>文件操作</span></a></h2>
+<table>
+<thead>
+<tr>
+<th>快捷键</th>
+<th>功能</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>Ctrl+O</code></td>
+<td>打开 PDF</td>
+<td>打开文件对话框选择 PDF 文件</td>
+</tr>
+<tr>
+<td><code v-pre>Ctrl+S</code></td>
+<td>保存批注</td>
+<td>保存当前 PDF 的批注数据</td>
+</tr>
+</tbody>
+</table>
+<h2 id="视图控制" tabindex="-1"><a class="header-anchor" href="#视图控制"><span>视图控制</span></a></h2>
+<table>
+<thead>
+<tr>
+<th>快捷键</th>
+<th>功能</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>Ctrl+鼠标滚轮向上</code></td>
+<td>放大</td>
+<td>增加缩放级别（每次 10%）</td>
+</tr>
+<tr>
+<td><code v-pre>Ctrl+鼠标滚轮向下</code></td>
+<td>缩小</td>
+<td>减少缩放级别（每次 10%）</td>
+</tr>
+<tr>
+<td><code v-pre>鼠标滚轮</code></td>
+<td>垂直滚动</td>
+<td>上下滚动 PDF 页面</td>
+</tr>
+<tr>
+<td><code v-pre>Shift+鼠标滚轮</code></td>
+<td>水平滚动</td>
+<td>左右滚动 PDF 页面</td>
+</tr>
+</tbody>
+</table>
+<h2 id="鼠标操作" tabindex="-1"><a class="header-anchor" href="#鼠标操作"><span>鼠标操作</span></a></h2>
+<table>
+<thead>
+<tr>
+<th>操作</th>
+<th>功能</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>左键拖动</td>
+<td>绘制/擦除</td>
+<td>在画笔模式下绘制，在橡皮模式下擦除</td>
+</tr>
+<tr>
+<td>拖拽文件</td>
+<td>打开 PDF</td>
+<td>将 PDF 文件拖拽到窗口打开</td>
+</tr>
+</tbody>
+</table>
+<h2 id="工具栏快捷操作" tabindex="-1"><a class="header-anchor" href="#工具栏快捷操作"><span>工具栏快捷操作</span></a></h2>
+<p>虽然工具栏按钮没有键盘快捷键，但可以通过以下方式快速操作：</p>
+<h3 id="颜色切换" tabindex="-1"><a class="header-anchor" href="#颜色切换"><span>颜色切换</span></a></h3>
+<p>点击工具栏中的颜色圆圈快速切换画笔颜色：</p>
+<ul>
+<li>🔴 红色</li>
+<li>🔵 蓝色</li>
+<li>🟢 绿色</li>
+<li>🟡 黄色</li>
+<li>🟠 橙色</li>
+<li>🟣 紫色</li>
+<li>🩷 粉色</li>
+<li>⚫ 黑色</li>
+</ul>
+<h3 id="笔粗切换" tabindex="-1"><a class="header-anchor" href="#笔粗切换"><span>笔粗切换</span></a></h3>
+<p>点击工具栏中的圆点快速切换笔粗：</p>
+<ul>
+<li>⚫ 细（2px）</li>
+<li>⚫ 中（4px）</li>
+<li>⚫ 粗（6px）</li>
+<li>⚫ 特粗（8px）</li>
+</ul>
+<h3 id="橡皮大小切换" tabindex="-1"><a class="header-anchor" href="#橡皮大小切换"><span>橡皮大小切换</span></a></h3>
+<p>点击工具栏中的圆点快速切换橡皮大小：</p>
+<ul>
+<li>⚫ 小（10px）</li>
+<li>⚫ 中（20px）</li>
+<li>⚫ 大（30px）</li>
+</ul>
+<h2 id="快捷键提示" tabindex="-1"><a class="header-anchor" href="#快捷键提示"><span>快捷键提示</span></a></h2>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>在设置中启用&quot;显示工具提示&quot;选项，鼠标悬停在按钮上时会显示功能说明和快捷键。</p>
+</div>
+<h2 id="自定义快捷键" tabindex="-1"><a class="header-anchor" href="#自定义快捷键"><span>自定义快捷键</span></a></h2>
+<p>当前版本不支持自定义快捷键，但我们计划在未来版本中添加此功能。</p>
+<h2 id="快捷键冲突" tabindex="-1"><a class="header-anchor" href="#快捷键冲突"><span>快捷键冲突</span></a></h2>
+<p>如果快捷键与其他应用冲突，可以：</p>
+<ol>
+<li>关闭冲突的应用</li>
+<li>修改其他应用的快捷键设置</li>
+<li>等待未来版本支持自定义快捷键</li>
+</ol>
+<h2 id="常用操作流程" tabindex="-1"><a class="header-anchor" href="#常用操作流程"><span>常用操作流程</span></a></h2>
+<h3 id="快速批注流程" tabindex="-1"><a class="header-anchor" href="#快速批注流程"><span>快速批注流程</span></a></h3>
+<ol>
+<li><code v-pre>Ctrl+O</code> 打开 PDF</li>
+<li>点击画笔工具</li>
+<li>选择颜色和粗细</li>
+<li>左键拖动绘制批注</li>
+<li><code v-pre>Ctrl+S</code> 保存批注</li>
+</ol>
+<h3 id="快速修改流程" tabindex="-1"><a class="header-anchor" href="#快速修改流程"><span>快速修改流程</span></a></h3>
+<ol>
+<li>点击橡皮工具</li>
+<li>选择橡皮大小</li>
+<li>在错误批注上拖动擦除</li>
+<li>点击画笔工具继续批注</li>
+<li><code v-pre>Ctrl+S</code> 保存批注</li>
+</ol>
+<h3 id="快速浏览流程" tabindex="-1"><a class="header-anchor" href="#快速浏览流程"><span>快速浏览流程</span></a></h3>
+<ol>
+<li><code v-pre>Ctrl+鼠标滚轮</code> 调整缩放</li>
+<li><code v-pre>鼠标滚轮</code> 上下滚动</li>
+<li><code v-pre>Shift+鼠标滚轮</code> 左右滚动</li>
+</ol>
+<h2 id="效率技巧" tabindex="-1"><a class="header-anchor" href="#效率技巧"><span>效率技巧</span></a></h2>
+<h3 id="技巧-1-快速切换工具" tabindex="-1"><a class="header-anchor" href="#技巧-1-快速切换工具"><span>技巧 1：快速切换工具</span></a></h3>
+<p>使用鼠标点击工具栏按钮比使用快捷键更快：</p>
+<ul>
+<li>画笔和橡皮工具只需一次点击</li>
+<li>颜色和粗细选择也只需一次点击</li>
+</ul>
+<h3 id="技巧-2-缩放技巧" tabindex="-1"><a class="header-anchor" href="#技巧-2-缩放技巧"><span>技巧 2：缩放技巧</span></a></h3>
+<ul>
+<li>按住 <code v-pre>Ctrl</code> 键，使用鼠标滚轮快速调整缩放</li>
+<li>缩放时页面会自动居中，无需手动调整位置</li>
+</ul>
+<h3 id="技巧-3-拖拽打开" tabindex="-1"><a class="header-anchor" href="#技巧-3-拖拽打开"><span>技巧 3：拖拽打开</span></a></h3>
+<ul>
+<li>直接从文件资源管理器拖拽 PDF 文件到窗口</li>
+<li>比使用 <code v-pre>Ctrl+O</code> 更快捷</li>
+</ul>
+<h3 id="技巧-4-最近文件" tabindex="-1"><a class="header-anchor" href="#技巧-4-最近文件"><span>技巧 4：最近文件</span></a></h3>
+<ul>
+<li>在主页点击最近文件卡片快速打开</li>
+<li>比每次浏览文件夹更高效</li>
+</ul>
+<h3 id="技巧-5-自动保存" tabindex="-1"><a class="header-anchor" href="#技巧-5-自动保存"><span>技巧 5：自动保存</span></a></h3>
+<ul>
+<li>在设置中启用&quot;自动保存批注&quot;</li>
+<li>无需记住按 <code v-pre>Ctrl+S</code>，关闭时自动保存</li>
+</ul>
+<h2 id="键盘导航" tabindex="-1"><a class="header-anchor" href="#键盘导航"><span>键盘导航</span></a></h2>
+<p>当前版本不支持完整的键盘导航，但我们计划在未来版本中添加：</p>
+<ul>
+<li><code v-pre>Tab</code> 键在控件间切换</li>
+<li><code v-pre>Enter</code> 键激活按钮</li>
+<li><code v-pre>Esc</code> 键取消操作</li>
+<li>方向键滚动页面</li>
+</ul>
+<h2 id="辅助功能" tabindex="-1"><a class="header-anchor" href="#辅助功能"><span>辅助功能</span></a></h2>
+<p>为了更好的可访问性，我们计划在未来版本中添加：</p>
+<ul>
+<li>屏幕阅读器支持</li>
+<li>高对比度主题</li>
+<li>更大的按钮和文字</li>
+<li>完整的键盘导航</li>
+</ul>
+</div></template>
+
+
