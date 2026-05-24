@@ -7,7 +7,7 @@ export default defineUserConfig({
   title: 'PDF 教学批注工具',
   description: '轻松为 PDF 添加批注和标记的桌面应用',
 
-  base: '/PdfTeachAnnotator/',
+  base: process.env.VERCEL ? '/' : '/PdfTeachAnnotator/',
 
   theme: defaultTheme({
     logo: '/images/logo.png',
