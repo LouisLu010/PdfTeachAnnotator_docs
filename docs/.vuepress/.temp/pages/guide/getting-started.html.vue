@@ -3,8 +3,7 @@
 <h3 id="下载" tabindex="-1"><a class="header-anchor" href="#下载"><span>下载</span></a></h3>
 <p>从 <a href="https://github.com/LouisLu010/PdfTeachAnnotator/releases" target="_blank" rel="noopener noreferrer">GitHub Releases</a> 页面下载最新版本：</p>
 <ul>
-<li><strong>Windows 安装包</strong>: <code v-pre>PdfTeachAnnotator-Setup.exe</code></li>
-<li><strong>便携版</strong>: <code v-pre>PdfTeachAnnotator-Portable.zip</code></li>
+<li><strong>便携版</strong>: <code v-pre>PdfTeachAnnotator.exe</code>（无需安装，直接运行）</li>
 </ul>
 <h3 id="系统要求" tabindex="-1"><a class="header-anchor" href="#系统要求"><span>系统要求</span></a></h3>
 <ul>
@@ -14,9 +13,8 @@
 </ul>
 <h3 id="安装步骤" tabindex="-1"><a class="header-anchor" href="#安装步骤"><span>安装步骤</span></a></h3>
 <ol>
-<li>双击下载的 <code v-pre>PdfTeachAnnotator-Setup.exe</code></li>
-<li>按照安装向导提示完成安装</li>
-<li>安装完成后，从开始菜单或桌面快捷方式启动应用</li>
+<li>双击下载的 <code v-pre>PdfTeachAnnotator.exe</code></li>
+<li>无需安装，立即使用</li>
 </ol>
 <h2 id="首次使用" tabindex="-1"><a class="header-anchor" href="#首次使用"><span>首次使用</span></a></h2>
 <h3 id="打开-pdf-文件" tabindex="-1"><a class="header-anchor" href="#打开-pdf-文件"><span>打开 PDF 文件</span></a></h3>
